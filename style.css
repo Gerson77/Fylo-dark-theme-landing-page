@@ -647,6 +647,14 @@ footer {
   footer {
     padding: 200px 60px 0px 60px;
   }
+
+  
+  .quotes {
+    position: absolute;
+    top: -34px;
+    left: 20px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -657,6 +665,7 @@ footer {
   .header nav a {
     padding-left: 20px;
   }
+
 }
 
 @media screen and (max-width: 375px) {
