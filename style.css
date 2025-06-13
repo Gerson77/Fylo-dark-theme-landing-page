@@ -23,8 +23,16 @@
   --white: hsl(0, 0%, 100%);
 
   /* Gradients */
-  --bg-gradiend: linear-gradient(90deg,rgba(101, 226, 217, 1) 0%, rgba(51, 158, 204, 1) 100%);
-  --bg-gradiend-hover: linear-gradient(90deg,rgba(101, 226, 217, 1) 58%, rgba(119, 205, 242, 1) 100%);
+  --bg-gradiend: linear-gradient(
+    90deg,
+    rgba(101, 226, 217, 1) 0%,
+    rgba(51, 158, 204, 1) 100%
+  );
+  --bg-gradiend-hover: linear-gradient(
+    90deg,
+    rgba(101, 226, 217, 1) 58%,
+    rgba(119, 205, 242, 1) 100%
+  );
 }
 
 html {
@@ -67,7 +75,7 @@ body {
   padding-left: 60px;
   opacity: 0.7;
   font-weight: 400;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .header nav a:hover {
@@ -115,7 +123,7 @@ body {
 .btn-call {
   width: 280px;
   padding: 16px 40px;
-  background-color: #65E2D9;
+  background-color: #65e2d9;
   background-image: var(--bg-gradiend);
   border: none;
   border-radius: 26px;
@@ -124,14 +132,14 @@ body {
   color: var(--white);
   cursor: pointer;
   font-size: 16px;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .btn-call:hover {
   background-image: var(--bg-gradiend-hover);
 }
 
-.curvy img{
+.curvy img {
   width: 100%;
   height: 100%;
   max-height: 40vh;
@@ -214,17 +222,17 @@ body {
   line-height: 26px;
   width: 152px;
   margin-top: 10px;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .link a {
   color: var(--teal-200);
   text-decoration: none;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .circle-arrow {
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
   background-color: var(--teal-200);
   border-radius: 50%;
   width: 16px;
@@ -247,7 +255,7 @@ body {
   color: var(--white);
 }
 
-.link:hover  {
+.link:hover {
   color: var(--white);
 }
 
@@ -293,8 +301,8 @@ body {
   background-color: var(--navy-800);
   padding: 32px;
   cursor: pointer;
-  transform: scale(1.0);
-  transition: all ease-in-out .3s;
+  transform: scale(1);
+  transition: all ease-in-out 0.3s;
 }
 
 .depoiment:hover {
@@ -306,7 +314,6 @@ body {
   opacity: 0.8;
   max-width: 300px;
 }
-
 
 .avatar-depoiment {
   display: flex;
@@ -390,7 +397,7 @@ body {
   font-weight: 700;
   color: var(--white);
   cursor: pointer;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .box-email div .btn-email:hover {
@@ -410,7 +417,7 @@ body {
 
 /* Footer */
 footer {
-  padding: 120px;
+  padding: 120px 120px 0px 120px;
   background-color: var(--navy-950);
   position: relative;
 }
@@ -469,7 +476,7 @@ footer {
 }
 
 .list-links div span {
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
   cursor: pointer;
   padding: 4px;
 }
@@ -495,8 +502,8 @@ footer {
   height: 34px;
   text-decoration: none;
   border-radius: 50%;
-  transition: all ease-in-out .3s;
-  transform: scale(1.0);
+  transition: all ease-in-out 0.3s;
+  transform: scale(1);
 }
 
 .social a:hover {
@@ -530,7 +537,6 @@ footer {
   border: 1px solid var(--white);
 }
 
-
 @media screen and (max-width: 768px) {
   .banner {
     width: 100%;
@@ -540,7 +546,7 @@ footer {
     width: 80%;
   }
 
-  .curvy img{
+  .curvy img {
     max-height: 40vh;
     top: 600px;
   }
@@ -646,7 +652,7 @@ footer {
     width: 80%;
   }
 
-  .curvy img{
+  .curvy img {
     top: 510px;
   }
 
@@ -671,7 +677,7 @@ footer {
     flex-direction: column;
   }
 
-  .about img{
+  .about img {
     width: 100%;
   }
 
